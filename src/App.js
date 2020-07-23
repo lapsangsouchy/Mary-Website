@@ -1,25 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment, useEffect } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
+import Home from "./components/pages/Home";
+import Gallery from "./components/pages/Gallery";
+import Contact from "./components/pages/Contact";
+import "materialize-css/dist/css/materialize.min.css";
+import M from "materialize-css/dist/js/materialize.min.js";
+import "./App.css";
 
 function App() {
+  useEffect(() => {
+    M.AutoInit();
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Fragment>
+        <Navbar />
+        <Fragment>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/gallery" component={Gallery} />
+            <Route exact path="/contact" component={Contact} />
+          </Switch>
+        </Fragment>
+        <Footer />
+      </Fragment>
+    </Router>
   );
 }
 
