@@ -4,7 +4,8 @@ import M from "materialize-css";
 import resume from "../../MaryMondlockResume.pdf";
 import photo2 from "../../photos/homeimage.jpeg";
 import photo3 from "../../photos/middle.jpeg";
-import photo4 from "../../photos/footer.jpeg";
+
+import headshot from "../../photos/gallery/headshot.JPG";
 
 const Parallax = () => {
   useEffect(() => {
@@ -15,8 +16,13 @@ const Parallax = () => {
   return (
     <div>
       <div className="parallax-container">
-        <div className="parallax">
-          <img src={photo2} />
+        <div
+          className="parallax"
+          style={{
+            height: "500px",
+          }}
+        >
+          <img src={headshot} />
         </div>
       </div>
       <div className="section mainsect">
@@ -44,34 +50,26 @@ const Parallax = () => {
       </div>
       <div className="parallax-container">
         <div className="parallax">
-          <img src={photo3} />
+          <img src={photo2} />
         </div>
       </div>
       <div className="section mainsect">
         <div className="row container">
-          <h2 className="header">Sample Text</h2>
-          <p className="grey-text text-darken-3 lighten-3">
-            Some favorite stage moments of mine include playing: Sally Bowles
-            (Cabaret), Carrie Pipperidge (Carousel), and Heather McNamara
-            (Heathers). I’ve most recently returned from a year performing at
-            sea on Holland America Line through RWS Entertainment Group, and
-            plan to keep my feet on solid ground for the foreseeable future. On
-            top of being a performer, I’m a major advocate for Body Positivity,
-            avid reader, and a podcast enthusiast. Hope to see you (with our
-            masks on) soon! Stay safe and strong.
+          <h2 className="header">Some favorite stage moments of mine:</h2>
+          <p className="lead text-darken-3 lighten-3">
+            Sally Bowles (Cabaret), Carrie Pipperidge (Carousel), and Heather
+            McNamara (Heathers). I’ve most recently returned from a year
+            performing at sea on Holland America Line through RWS Entertainment
+            Group, and plan to keep my feet on solid ground for the foreseeable
+            future. On top of being a performer, I’m a major advocate for Body
+            Positivity, avid reader, and a podcast enthusiast. Hope to see you
+            (with our masks on) soon! Stay safe and strong.
           </p>
         </div>
       </div>
       <div className="parallax-container">
-        <div
-          className="parallax"
-          style={{
-            height: "1000px",
-            width: "100%",
-            transform: "scale(0.75, 0.75)",
-          }}
-        >
-          <img src={photo4} />
+        <div className="parallax">
+          <img src={photo3} />
         </div>
       </div>
     </div>

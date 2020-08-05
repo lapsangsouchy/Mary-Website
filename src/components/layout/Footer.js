@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="row">
           <div className="col l6 s12">
             <Link to="/contact">
-              <h5 className="white-text">Contact Mary</h5>
+              <h5 className="white-text">Contact Me</h5>
             </Link>
           </div>
           <div className="col l4 offset-l2 s12" style={{ marginTop: "10px" }}>
@@ -23,15 +23,27 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/marymondlock/">
+                <a
+                  href="https://www.instagram.com/marymondlock/"
+                  target="_blank"
+                >
                   <i
                     className="fab fa-instagram"
+                    style={{ fontSize: "1.5rem" }}
+                  />
+                </a>{" "}
+                <a
+                  href="https://www.facebook.com/mary.mondlock"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-facebook"
                     style={{ fontSize: "1.5rem" }}
                   />
                 </a>
               </li>
               <li>
-                <a href="https://www.ringofkeys.org/">
+                <a href="https://www.ringofkeys.org/" target="_blank">
                   <img src={logo} />
                 </a>
               </li>

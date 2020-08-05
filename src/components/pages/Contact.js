@@ -6,19 +6,37 @@ const Contact = () => {
   return (
     <Fragment>
       <div className="container">
+        <h3>Contact Me</h3>
         <div className="row">
           <div className="col l6 s12">
-            <h3>Hit Her Up!</h3>
-            <p className="flow-text">
-              Based in Brooklyn, Mary is just straight up chillin' in the
-              apocalypse. She was also featured in one of those "At the Ballet"
-              Compilation Videos. And like... She was the best one? Like how the
-              fuck does someone do that? Insanity. Here are some links to hit
-              her up!
-            </p>
             <div className="card">
               <div className="card-image">
                 <img src={photo} />
+              </div>
+            </div>
+            <div className="card">
+              <div className="card-content">
+                <span className="card-title">For Social Media</span>
+              </div>
+              <div className="card-action">
+                <a
+                  href="https://www.instagram.com/marymondlock/"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-instagram"
+                    style={{ fontSize: "1.5rem" }}
+                  />
+                </a>
+                <a
+                  href="https://www.facebook.com/mary.mondlock"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-facebook"
+                    style={{ fontSize: "1.5rem" }}
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -26,7 +44,16 @@ const Contact = () => {
             <div className="card">
               <div className="card-content">
                 <span className="card-title">For Professional Inquiries</span>
-                <p>Click this link to compose an email</p>
+                <p>
+                  <i className="tiny material-icons">email</i>
+                  marymondlock@gmail.com
+                </p>
+                <p>
+                  <i className="tiny material-icons">phone</i>
+                  715-308-6236
+                </p>
+                <br />
+                <p>Or click the links below.</p>
               </div>
               <div className="card-action">
                 <a
@@ -35,33 +62,23 @@ const Contact = () => {
                 >
                   Email
                 </a>
-              </div>
-            </div>
-            <div className="card">
-              <div className="card-content">
-                <span className="card-title">For Social Media</span>
-                <p>Follow her on Instagram</p>
-              </div>
-              <div className="card-action">
-                <a href="https://www.instagram.com/marymondlock/">
-                  <i
-                    className="fab fa-instagram"
-                    style={{ fontSize: "1.5rem" }}
-                  />
+                <a href="tel:7153086236" style={{ fontSize: "1.25rem" }}>
+                  Call
                 </a>
               </div>
             </div>
+
             <div className="card">
               <div className="card-content">
                 <span className="card-title">Ring of Keys</span>
                 <p>
-                  Mary is a member of the incredible Ring of Keys organization
+                  I'm also a member of the incredible Ring of Keys organization
                   that advocates for all professional artists who self-identify
                   as queer women, transgender, and gender non-conforming.
                 </p>
               </div>
               <div className="card-action">
-                <a href="https://www.ringofkeys.org/">
+                <a href="https://www.ringofkeys.org/" target="_blank">
                   <img src={logo} />
                 </a>
               </div>

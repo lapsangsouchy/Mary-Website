@@ -5,7 +5,7 @@ import cuffs from "../../photos/gallery/cuffs.JPG";
 import city from "../../photos/gallery/city.jpeg";
 import classy from "../../photos/gallery/classy.jpg";
 import denim from "../../photos/gallery/denim.jpeg";
-import headshot from "../../photos/gallery/headshot.JPG";
+import photo4 from "../../photos/footer.jpeg";
 import heathers1 from "../../photos/gallery/heathers1.jpg";
 import homeimage from "../../photos/gallery/homeimage.png";
 import iconic from "../../photos/gallery/iconic.jpeg";
@@ -56,7 +56,7 @@ const Photo = () => {
       <div className="row">
         <img className="col s4 materialboxed responsive-img" src={rocker} />
         <img className="col s4 materialboxed responsive-img" src={classy} />
-        <img className="col s4 materialboxed responsive-img" src={headshot} />
+        <img className="col s4 materialboxed responsive-img" src={photo4} />
       </div>
     </Fragment>
   );
