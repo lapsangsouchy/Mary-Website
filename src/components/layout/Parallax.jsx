@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import M from "materialize-css";
 import resume from "../../MaryMondlockResume.pdf";
-import photo2 from "../../photos/homeimage.jpeg";
-import photo3 from "../../photos/middle.jpeg";
+import photo2 from "../../photos/Homepage1.jpeg";
+import photo3 from "../../photos/homepage2.jpeg";
 
 import headshot from "../../photos/gallery/headshot.JPG";
 

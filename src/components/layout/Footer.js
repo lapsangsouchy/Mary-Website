@@ -31,13 +31,24 @@ const Footer = () => {
                     className="fab fa-instagram"
                     style={{ fontSize: "1.5rem" }}
                   />
-                </a>{" "}
+                </a>
+                {"   "}
                 <a
                   href="https://www.facebook.com/mary.mondlock"
                   target="_blank"
                 >
                   <i
                     className="fab fa-facebook"
+                    style={{ fontSize: "1.5rem" }}
+                  />
+                </a>
+                {"   "}
+                <a
+                  href="https://www.youtube.com/channel/UCDIjB-2_HjGRYfv5Tm0sYNw"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-youtube"
                     style={{ fontSize: "1.5rem" }}
                   />
                 </a>

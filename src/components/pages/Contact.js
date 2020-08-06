@@ -37,6 +37,15 @@ const Contact = () => {
                     style={{ fontSize: "1.5rem" }}
                   />
                 </a>
+                <a
+                  href="https://www.youtube.com/channel/UCDIjB-2_HjGRYfv5Tm0sYNw"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-youtube"
+                    style={{ fontSize: "1.5rem" }}
+                  />
+                </a>
               </div>
             </div>
           </div>
