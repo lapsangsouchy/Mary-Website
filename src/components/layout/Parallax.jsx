@@ -5,7 +5,7 @@ import resume from "../../MaryMondlockResume.pdf";
 import photo2 from "../../photos/Homepage1.jpeg";
 import photo3 from "../../photos/homepage2.jpeg";
 
-import headshot from "../../photos/gallery/headshot.JPG";
+import headshot from "../../photos/headshot.JPG";
 
 const Parallax = () => {
   useEffect(() => {
