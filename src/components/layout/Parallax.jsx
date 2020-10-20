@@ -50,7 +50,7 @@ const Parallax = () => {
       </div>
       <div className="parallax-container">
         <div className="parallax">
-          <img src={photo2} />
+          <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212829/rocker_wh1qgk.jpg" />
         </div>
       </div>
       <div className="section mainsect">
