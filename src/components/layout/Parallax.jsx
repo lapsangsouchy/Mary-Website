@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import M from "materialize-css";
 import resume from "../../MaryMondlockResume.pdf";
-import photo2 from "../../photos/Homepage1.jpeg";
-import photo3 from "../../photos/homepage2.jpeg";
 
 import headshot from "../../photos/headshot.JPG";
 
@@ -50,7 +48,7 @@ const Parallax = () => {
       </div>
       <div className="parallax-container">
         <div className="parallax">
-          <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212829/rocker_wh1qgk.jpg" />
+          <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212786/Homepage1_eiu6jd.jpg" />
         </div>
       </div>
       <div className="section mainsect">
@@ -69,7 +67,7 @@ const Parallax = () => {
       </div>
       <div className="parallax-container">
         <div className="parallax">
-          <img src={photo3} />
+          <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212788/homepage2_et9rn8.jpg" />
         </div>
       </div>
     </div>

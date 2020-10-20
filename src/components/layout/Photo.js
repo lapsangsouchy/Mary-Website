@@ -1,23 +1,5 @@
 import React, { Fragment, useEffect } from "react";
 import M from "materialize-css";
-import sweater from "../../photos/sweater.jpeg";
-import cuffs from "../../photos/cuffs.JPG";
-import city from "../../photos/city.jpeg";
-import classy from "../../photos/classy.jpg";
-import denim from "../../photos/denim.jpeg";
-import photo4 from "../../photos/footer.jpeg";
-import heathers1 from "../../photos/heathers1.jpg";
-import homeimage from "../../photos/homeimage.png";
-import iconic from "../../photos/iconic.jpeg";
-import lookback from "../../photos/lookback.jpeg";
-import neon from "../../photos/neon.jpeg";
-import pretz from "../../photos/pretz.jpg";
-import raincoat from "../../photos/raincoat.jpeg";
-import elephant from "../../photos/elephant.jpeg";
-import rocker from "../../photos/rocker.JPG";
-import wall from "../../photos/wall.jpg";
-import jumpsuit from "../../photos/jumpsuit.png";
-import partner from "../../photos/partner.jpeg";
 
 const Photo = () => {
   useEffect(() => {
@@ -27,36 +9,90 @@ const Photo = () => {
   return (
     <Fragment>
       <div className="row">
-        <img className="col s4 materialboxed responsive-img" src={raincoat} />
-        <img className="col s4 materialboxed responsive-img" src={heathers1} />
-        <img className="col s4 materialboxed responsive-img" src={wall} />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212821/raincoat_o58nrf.jpg"
+        />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212784/heathers1_eixmol.jpg"
+        />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212818/wall_znkbii.jpg"
+        />
       </div>
       <div className="row">
-        <img className="col s4 materialboxed responsive-img" src={homeimage} />
-        <img className="col s4 materialboxed responsive-img" src={neon} />
-        <img className="col s4 materialboxed responsive-img" src={lookback} />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212786/homeimage_bpcq9r.png"
+        />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212812/neon_on23wt.jpg"
+        />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212830/lookback_z7uryy.jpg"
+        />
       </div>
 
       <div className="row">
-        <img className="col s4 materialboxed responsive-img" src={sweater} />
-        <img className="col s4 materialboxed responsive-img" src={pretz} />
-        <img className="col s4 materialboxed responsive-img" src={denim} />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212831/sweater_n1lt92.jpg"
+        />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212813/pretz_xdai5f.jpg"
+        />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212803/denim_h7jdgw.jpg"
+        />
       </div>
       <div className="row">
-        <img className="col s4 materialboxed responsive-img" src={cuffs} />
-        <img className="col s4 materialboxed responsive-img" src={jumpsuit} />
-        <img className="col s4 materialboxed responsive-img" src={iconic} />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212813/cuffs_ctdky8.jpg"
+        />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212802/jumpsuit_anfjtv.png"
+        />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212793/iconic_igmq43.jpg"
+        />
       </div>
 
       <div className="row">
-        <img className="col s4 materialboxed responsive-img" src={city} />
-        <img className="col s4 materialboxed responsive-img" src={partner} />
-        <img className="col s4 materialboxed responsive-img" src={elephant} />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212804/city_v3oiy2.jpg"
+        />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212815/partner_wdiq98.jpg"
+        />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212787/elephant_pyv1tf.jpg"
+        />
       </div>
       <div className="row">
-        <img className="col s4 materialboxed responsive-img" src={rocker} />
-        <img className="col s4 materialboxed responsive-img" src={classy} />
-        <img className="col s4 materialboxed responsive-img" src={photo4} />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212829/rocker_wh1qgk.jpg"
+        />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212800/classy_be6jtm.jpg"
+        />
+        <img
+          className="col s4 materialboxed responsive-img"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212787/footer_qxslyv.jpg"
+        />
       </div>
     </Fragment>
   );

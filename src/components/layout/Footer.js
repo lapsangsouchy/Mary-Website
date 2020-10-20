@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../photos/ringofkeys.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -55,7 +54,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="https://www.ringofkeys.org/" target="_blank">
-                  <img src={logo} />
+                  <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212815/ringofkeys_zjb5w2.png" />
                 </a>
               </li>
             </ul>

@@ -1,10 +1,5 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import M from "materialize-css";
-import photo from "../../photos/reel.png";
-import photo1 from "../../photos/wth.png";
-import photo2 from "../../photos/dress.png";
-import photo3 from "../../photos/alicia.png";
-import photo4 from "../../photos/ballet.png";
 
 const Video = () => {
   useEffect(() => {
@@ -38,7 +33,7 @@ const Video = () => {
               className="circle thumbnail tooltipped"
               data-position="bottom"
               data-tooltip="Reel"
-              src={photo}
+              src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212814/reel_cuu5k0.png"
             />
           </a>
           <a className="col s2" href="#!" onClick={video1}>
@@ -46,7 +41,7 @@ const Video = () => {
               className="circle thumbnail tooltipped"
               data-position="bottom"
               data-tooltip="What The Hell"
-              src={photo1}
+              src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212816/wth_kejuuo.png"
             />
           </a>
           <a className="col s2" href="#!" onClick={video2}>
@@ -54,7 +49,7 @@ const Video = () => {
               className="circle thumbnail tooltipped"
               data-position="bottom"
               data-tooltip="HAL Highlights"
-              src={photo2}
+              src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212793/dress_gyrf8t.png"
             />
           </a>
           <a className="col s2" href="#!" onClick={video3}>
@@ -62,7 +57,7 @@ const Video = () => {
               className="circle thumbnail tooltipped"
               data-position="bottom"
               data-tooltip="If I Ain't Got You"
-              src={photo3}
+              src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212784/alicia_w50tgj.png"
             />
           </a>
           <a className="col s2" href="#!" onClick={video4}>
@@ -70,7 +65,7 @@ const Video = () => {
               className="circle thumbnail tooltipped"
               data-position="bottom"
               data-tooltip="At The Ballet"
-              src={photo4}
+              src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212786/ballet_shtidc.png"
             />
           </a>
         </div>

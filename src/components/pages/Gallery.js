@@ -1,12 +1,6 @@
-import React, { Fragment, useEffect, useState } from "react";
+import React, { Fragment, useEffect } from "react";
 import Video from "../layout/Video";
 import Photo from "../layout/Photo";
-import photo1 from "../../photos/blue1.jpg";
-import photo2 from "../../photos/blue2.jpg";
-import photo3 from "../../photos/blue3.jpg";
-import photo4 from "../../photos/blue4.jpg";
-import photo5 from "../../photos/blue5.png";
-import photo6 from "../../photos/blue7.png";
 import M from "materialize-css";
 
 const Gallery = () => {
@@ -28,22 +22,22 @@ const Gallery = () => {
       <div className="container">
         <div className="carousel carousel-slider" data-indicators="true">
           <div className="carousel-item">
-            <img src={photo1} />
+            <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212784/blue1_ihf8ss.jpg" />
           </div>
           <div className="carousel-item">
-            <img src={photo2} />
+            <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212791/blue2_ljw8w8.jpg" />
           </div>
           <div className="carousel-item">
-            <img src={photo3} />
+            <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212795/blue3_fyfzcp.jpg" />
           </div>
           <div className="carousel-item">
-            <img src={photo4} />
+            <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212801/blue4_tyk0vu.jpg" />
           </div>
           <div className="carousel-item">
-            <img src={photo5} />
+            <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212798/blue5_mhgprj.png" />
           </div>
           <div className="carousel-item">
-            <img src={photo6} />
+            <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212812/blue7_y8swqb.png" />
           </div>
         </div>
       </div>

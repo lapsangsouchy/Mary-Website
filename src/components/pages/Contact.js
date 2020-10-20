@@ -1,6 +1,4 @@
 import React, { Fragment } from "react";
-import logo from "../../photos/ringofkeys.png";
-import photo from "../../photos/blue8.jpg";
 
 const Contact = () => {
   return (
@@ -11,7 +9,7 @@ const Contact = () => {
           <div className="col l6 s12">
             <div className="card">
               <div className="card-image">
-                <img src={photo} />
+                <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212790/blue8_oxzslm.jpg" />
               </div>
             </div>
             <div className="card">
@@ -88,7 +86,7 @@ const Contact = () => {
               </div>
               <div className="card-action">
                 <a href="https://www.ringofkeys.org/" target="_blank">
-                  <img src={logo} />
+                  <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212815/ringofkeys_zjb5w2.png" />
                 </a>
               </div>
             </div>
