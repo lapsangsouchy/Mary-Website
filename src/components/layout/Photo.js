@@ -58,7 +58,7 @@ const Photo = () => {
         />
         <img
           className="col s4 materialboxed responsive-img"
-          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212802/jumpsuit_anfjtv.png"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212788/homepage2_et9rn8.jpg"
         />
         <img
           className="col s4 materialboxed responsive-img"

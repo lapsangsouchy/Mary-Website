@@ -20,7 +20,7 @@ const Parallax = () => {
             height: "500px",
           }}
         >
-          <img src={headshot} />
+          <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212802/jumpsuit_anfjtv.png" />
         </div>
       </div>
       <div className="section mainsect">
@@ -48,7 +48,7 @@ const Parallax = () => {
       </div>
       <div className="parallax-container">
         <div className="parallax">
-          <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212786/Homepage1_eiu6jd.jpg" />
+          <img src={headshot} />
         </div>
       </div>
       <div className="section mainsect">
@@ -67,7 +67,7 @@ const Parallax = () => {
       </div>
       <div className="parallax-container">
         <div className="parallax">
-          <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212788/homepage2_et9rn8.jpg" />
+          <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603218933/BE969C6F-4A2B-444E-A7C1-A2A2B2657B4E_l6ifua.jpg" />
         </div>
       </div>
     </div>
