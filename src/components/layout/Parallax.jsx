@@ -20,7 +20,7 @@ const Parallax = () => {
             height: "500px",
           }}
         >
-          <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212802/jumpsuit_anfjtv.png" />
+          <img src={headshot} />
         </div>
       </div>
       <div className="section mainsect">
@@ -48,7 +48,7 @@ const Parallax = () => {
       </div>
       <div className="parallax-container">
         <div className="parallax">
-          <img src={headshot} />
+          <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603560195/56213891_426632311469872_3087741105325514987_n_rovjpn.jpg" />
         </div>
       </div>
       <div className="section mainsect">
@@ -66,8 +66,13 @@ const Parallax = () => {
         </div>
       </div>
       <div className="parallax-container">
-        <div className="parallax">
-          <img src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603218933/BE969C6F-4A2B-444E-A7C1-A2A2B2657B4E_l6ifua.jpg" />
+        <div
+          className="parallax"
+          style={{
+            height: 850,
+          }}
+        >
+          <img src="https://res.cloudinary.com/dl3kdouns/image/upload/c_crop,g_north,w_1126,x_0,y_0/v1603212802/jumpsuit_anfjtv.png" />
         </div>
       </div>
     </div>

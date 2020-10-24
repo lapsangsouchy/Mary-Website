@@ -54,7 +54,7 @@ const Photo = () => {
       <div className="row">
         <img
           className="col s4 materialboxed responsive-img"
-          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212813/cuffs_ctdky8.jpg"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212787/footer_qxslyv.jpg"
         />
         <img
           className="col s4 materialboxed responsive-img"
@@ -91,7 +91,7 @@ const Photo = () => {
         />
         <img
           className="col s4 materialboxed responsive-img"
-          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212787/footer_qxslyv.jpg"
+          src="https://res.cloudinary.com/dl3kdouns/image/upload/v1603212813/cuffs_ctdky8.jpg"
         />
       </div>
     </Fragment>
