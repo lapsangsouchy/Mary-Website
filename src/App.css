@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 /* Global Styles */
 :root {
@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   background-color: #fff;
@@ -184,8 +184,45 @@ nav li {
   height: 400px;
 } */
 
+/* section {
+  transform-style: preserve-3d;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+} */
+
+.plx h1 {
+  width: 60%;
+  font-size: 2rem;
+}
+
+.plx::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+
+.bg::after {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://res.cloudinary.com/dl3kdouns/image/upload/c_scale,g_north,h_1632,w_1163,y_137/v1664828273/mary/IMG_0618_wochpm.jpg');
+  background-size: cover;
+}
+
 img {
   height: auto;
+}
+
+.section {
+  z-index: 999;
 }
 
 /* Images */

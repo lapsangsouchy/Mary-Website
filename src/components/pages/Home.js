@@ -1,10 +1,10 @@
-import React from "react";
-import Parallax from "../layout/Parallax";
+import React from 'react';
+import HomeParallax from '../layout/Parallax';
 
 const Home = () => {
   return (
     <div>
-      <Parallax />
+      <HomeParallax />
     </div>
   );
 };
