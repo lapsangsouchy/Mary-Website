@@ -33,8 +33,7 @@ const HomeParallax = () => {
             based in NYC. I grew up in rural Wisconsin (there were literally
             more cows than people in my town), studied Musical Theater at
             Baldwin Wallace University in Ohio, and eventually found my way to
-            New York City, where I now belt, thrive and survive with my wife and
-            our fur children.
+            New York City, where I now belt, thrive and survive.
           </p>
 
           <a
