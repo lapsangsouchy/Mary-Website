@@ -30,10 +30,10 @@ const HomeParallax = () => {
             style={{ marginBottom: '25px' }}
           >
             I’m Mary Mondlock- an actor/singer and body acceptance advocate
-            based in NYC. I grew up in rural Wisconsin (there were literally
+            based in Minneapolis. I grew up in rural Wisconsin (there were literally
             more cows than people in my town), studied Musical Theater at
             Baldwin Wallace University in Ohio, and eventually found my way to
-            New York City, where I now belt, thrive and survive.
+            Minneapolis, where I now belt, thrive and survive.
           </p>
 
           <a
@@ -64,12 +64,7 @@ const HomeParallax = () => {
           <p className='flow-text text-darken-3 lighten-3'>
             Sally Bowles (Cabaret), Carrie Pipperidge (Carousel), and Heather
             McNamara (Heathers). I’ve also travelled the world performing at sea
-            on Holland America Line through RWS Entertainment Group. Currently,
-            you can probably catch me living my best life performing at 54 Below
-            in NYC on any given weekend, in my basement self-taping until my
-            neighbors kindly ask me to “shhhhh”, or being a mental health and
-            body positivity advocate (acting a complete fool) on my socials.
-            Hope to see you and get creative together soon!
+            on Holland America Line through RWS Entertainment Group.
           </p>
         </div>
       </div>
