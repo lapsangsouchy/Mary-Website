@@ -36,11 +36,12 @@ const Photo = () => {
           src='https://res.cloudinary.com/dl3kdouns/image/upload/v1666805215/mary/IMG_2070_in6v5b.jpg'
           alt=''
         />
-        <img
+                <img
           className='col s4 materialboxed responsive-img'
-          src='https://res.cloudinary.com/dl3kdouns/image/upload/v1666806192/mary/IMG_9558_mp3rii.jpg'
+          src='https://res.cloudinary.com/dl3kdouns/image/upload/v1664828273/mary/36BA7BBB-9E9F-497D-ABBC-7626EBBB7F10_f6ztmp.jpg'
           alt=''
         />
+
       </div>
 
       <div className='row'>
@@ -79,24 +80,8 @@ const Photo = () => {
       </div>
 
       <div className='row'>
-        <img
-          className='col s4 materialboxed responsive-img'
-          src='https://res.cloudinary.com/dl3kdouns/image/upload/v1664828273/mary/36BA7BBB-9E9F-497D-ABBC-7626EBBB7F10_f6ztmp.jpg'
-          alt=''
-        />
-        <img
-          className='col s4 materialboxed responsive-img'
-          src='https://res.cloudinary.com/dl3kdouns/image/upload/v1603212815/partner_wdiq98.jpg'
-          alt=''
-        />
-        <img
-          className='col s4 materialboxed responsive-img'
-          src='https://res.cloudinary.com/dl3kdouns/image/upload/v1603212787/elephant_pyv1tf.jpg'
-          alt=''
-        />
-      </div>
-      <div className='row'>
-        <img
+
+                <img
           className='col s4 materialboxed responsive-img'
           src='https://res.cloudinary.com/dl3kdouns/image/upload/v1664828273/mary/IMG_0618_wochpm.jpg'
           alt=''
@@ -106,12 +91,14 @@ const Photo = () => {
           src='https://res.cloudinary.com/dl3kdouns/image/upload/v1664828000/mary/MaryMondlock67417_mw4sos.jpg'
           alt=''
         />
-        <img
+                   <img
           className='col s4 materialboxed responsive-img'
           src='https://res.cloudinary.com/dl3kdouns/image/upload/v1664827998/mary/MaryMondlock67135_ewqojb.jpg'
           alt=''
         />
+
       </div>
+
     </Fragment>
   );
 };
